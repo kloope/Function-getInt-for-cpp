@@ -1,0 +1,13 @@
+int getint() {
+	int t;
+	while (!(cin >> t)) {
+		cerr << "Wrong input format";
+		cin.clear();
+		cin.ignore((numeric_limits<streamsize>::max)(), '\n');
+	}
+	cin.ignore((numeric_limits<streamsize>::max)(), '\n');
+	return t;
+}
+
+// requires #inlucde <iostream>
+// a = getint(); (how to use the function)
