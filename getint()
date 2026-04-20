@@ -1,7 +1,7 @@
 int getint() {
 	int t;
 	while (!(cin >> t)) {
-		cerr << "Wrong input format";
+		cerr << "Wrong input format \n";
 		cin.clear();
 		cin.ignore((numeric_limits<streamsize>::max)(), '\n');
 	}
